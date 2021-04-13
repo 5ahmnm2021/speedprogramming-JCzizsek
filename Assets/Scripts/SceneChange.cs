@@ -22,4 +22,9 @@ public class SceneChange : MonoBehaviour
         SceneManager.LoadScene("Szene02");
     }
 
+    public void ChangeToScene3()
+    {
+        SceneManager.LoadScene("Szene03");
+    }
+
 }
